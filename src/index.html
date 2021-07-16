@@ -9,12 +9,9 @@
   <title>capegroup</title>
 
   <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
-  
-  <style>
-	a {
-	  color: pink !important;
-	}
-  </style>
+  <link href="style.css" rel="stylesheet">
+
+  <script src="index.js"></script>
 </head>
 <body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-set-preferred-mode-onload="true">
 
@@ -36,6 +33,25 @@
 		<div class="card">
 			<div class="container-fluid">
 				<div class="row">
+					<div class="col text-center font-weight-semi-bold font-size-16">
+						There are <span class="cosmetics-count"></span> available cosmetics.
+					</div>
+					<div class="col text-center font-weight-semi-bold font-size-16">
+						There are <span class="users-count"></span> users.
+					</div>
+				</div>
+				<div class="row">
+					<div class="col text-center cosmetics"></div>
+
+					<div class="col text-center users"></div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="card">
+			<div class="container-fluid">
+				<div class="row">
 					<div class="col text-center">
 						<a href="https://twitter.com/cap3gr0up">
 							<i class="fab fa-twitter-square fa-5x"></i>
@@ -53,9 +69,10 @@
 							<i class="fab fa-github-alt fa-5x"></i>
 						</a>
 					</div>
-				  </div>
+				</div>
 			</div>
 		</div>
+
     </div>
 
   </div>
@@ -63,5 +80,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
   <script src="https://kit.fontawesome.com/7fd3d4d389.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
